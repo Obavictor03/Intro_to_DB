@@ -5,6 +5,6 @@ SELECT
     COLUMN_KEY AS `Key`,
     COLUMN_DEFAULT AS `Default`,
     EXTRA AS Extra
-FROM information_schema.COLUMNS
+FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_SCHEMA = 'alx_book_store'
   AND TABLE_NAME = 'Books';
